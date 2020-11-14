@@ -7,9 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: "Montserrat";
     font-weight: 100;
     font-display: auto;
-    src: url("/fonts/Montserrat/Montserrat-Thin.woff2") format("woff2"),
-        url("/fonts/Montserrat/Montserrat-Thin.woff") format("woff"),
-        url("/fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");
+    src: url("/fonts/Montserrat/Montserrat-Thin.ttf") format("truetype");
 }
 @font-face {
     font-family: "Montserrat";
@@ -22,34 +20,26 @@ export const GlobalStyle = createGlobalStyle`
     font-family: "Montserrat";
     font-weight: 400;
     font-display: auto;
-    src: url("/fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"),
-        url("/fonts/Montserrat/Montserrat-Regular.woff") format("woff"),
-        url("/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+    src: url("/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Montserrat";
     font-weight: 500;
     font-display: auto;
-    src: url("/fonts/Montserrat/Montserrat-Medium.woff2") format("woff2"),
-        url("/fonts/Montserrat/Montserrat-Medium.woff") format("woff"),
-        url("/fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+    src: url("/fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
 }
 @font-face {
     font-family: "Montserrat";
     font-weight: 700;
     font-display: auto;
-    src: url("/fonts/Montserrat/Montserrat-Bold.woff2") format("woff2"),
-        url("/fonts/Montserrat/Montserrat-Bold.woff") format("woff"),
-        url("/fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+    src: url("/fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
 }
 @font-face {
     font-family: "Montserrat";
     font-weight: 900;
     font-display: auto;
-    src: url("/fonts/Montserrat/Montserrat-Black.woff2") format("woff2"),
-        url("/fonts/Montserrat/Montserrat-Black.woff") format("woff"),
-        url("/fonts/Montserrat/Montserrat-Black.ttf") format("truetype");
+    src: url("/fonts/Montserrat/Montserrat-Black.ttf") format("truetype");
 }
 
 html {

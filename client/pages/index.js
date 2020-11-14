@@ -1,5 +1,9 @@
-function HomePage() {
-    return <div>Welcome to Next.js!</div>
+import Button from '../components/Button'
+
+export default function HomePage() {
+    return (
+        <div>
+            <Button>hola mundo</Button>
+        </div>
+    );
 }
-  
-export default HomePage
