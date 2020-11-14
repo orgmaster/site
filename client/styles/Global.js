@@ -57,6 +57,10 @@ body {
     font-weight: 300;
     color: ${colors.dark};
 }
+::selection {
+    color: white;
+    background-color:${colors.red};
+}
 
 strong, 
 .--strong {
