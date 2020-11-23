@@ -25,13 +25,16 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
-    "@storybook/addon-controls": "^6.0.28",
     "@storybook/addon-actions": "^6.0.28",
+    "@storybook/addon-controls": "^6.0.28",
     "@storybook/addon-essentials": "^6.0.28",
     "@storybook/addon-links": "^6.0.28",
     "@storybook/react": "^6.0.28",
     "babel-loader": "^8.2.1",
     "babel-plugin-inline-react-svg": "^1.1.2",
-    "react-is": "^17.0.1"
+    "postcss": "^8.1.9",
+    "postcss-preset-env": "^6.7.0",
+    "react-is": "^17.0.1",
+    "tailwindcss": "^2.0.1"
   }
 }
