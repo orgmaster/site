@@ -9,5 +9,6 @@ export const colors = {
     white,
     dark,
     light,
-    redLight
+    redLight,
+    bgHeader: dark
 }

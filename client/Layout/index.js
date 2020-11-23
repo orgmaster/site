@@ -1,7 +1,12 @@
+import Header from '../components/Header'
+
 export default function ClientLayout({children}) {
     return(
-        <div>
-            {children}
-        </div>
+        <>
+            <Header />
+            <main>
+                {children}
+            </main>
+        </>
     );
 }
