@@ -15,7 +15,7 @@ export const Title = styled.h2`
 `
 
 export const Text = styled.div`
-    color: ${colors.dark};
+    color: ${({textColor}) => colors[textColor] || colors.dark};
     font-size: 24px;
     font-weight: normal;
     line-height: 1.5;

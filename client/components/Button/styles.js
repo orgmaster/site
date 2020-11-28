@@ -5,16 +5,19 @@ const Base = styled.button`
     font-family: 'Montserrat';
     box-sizing: border-box;
     border-radius: 5px;
-    padding: 10px 15px;
+    padding: 20px 40px;
     transition: opacity .3s ease-in-out;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: normal;
     &:hover{
         opacity: .7;
         cursor: pointer;
     }
     border: 1px solid ${({color}) => colors[color] || colors.red};
+    /* @media(max-width: 1023px){
+        width:100%;
+    } */
 `
 
 export const Fill = styled(Base)`
