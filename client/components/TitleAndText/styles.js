@@ -10,8 +10,9 @@ export const Title = styled.h2`
     color: ${({titleColor}) => colors[titleColor] || colors.dark};
     font-weight: 600;
     font-size:40px;
-    line-height:1.83;
-    text-transform: capitalize;
+    line-height:1.4;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 `
 
 export const Text = styled.div`

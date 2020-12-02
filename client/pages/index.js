@@ -5,13 +5,14 @@ import TitleAndText from '../components/TitleAndText';
 import Button from '../components/Button';
 import MainSvg from '../assets/undraw_dev_focus_b9xo.svg';
 import DarkCard from "../components/DarkCard";
+import StatsSvg from '../assets/undraw_growth_analytics_8btt.svg';
 export default function Home({}) {
   return (
     <>
-      <Section bg="white" gradient containerClass="py-10 flex" className="grid grid-cols-2 mt-auto">
+      <Section bg="white" containerClass="py-10 flex" className="grid grid-cols-2 mt-auto">
         <div className="col-span-2 sm:col-span-1 mb-5 sm:mb-0 flex flex-col justify-center">
           <div>
-            <Title>Título con múcho SEO justo aquí</Title>
+            <Title>¿Necesitas digitalizar tu negocio? <mark>Sabemos como hacerlo</mark></Title>
             <div className="mt-8">
               <Button className="w-full lg:w-auto">Contactar</Button>
               <Button className="ml-0 mt-4 lg:mt-0 lg:ml-5 w-full lg:w-auto" outline>Ver trabajos</Button>
@@ -29,22 +30,22 @@ export default function Home({}) {
           <Title h2 align="center" color="white">¿Por qué elegirnos?</Title>
           <div className="grid grid-cols-12 gap-4">
             <div className="col-span-12 md:col-span-6 lg:col-span-3">
-              <DarkCard title="Feature 1">
+              <DarkCard title="Calidad">
                 <p>Texto asdsa dasd asd as asd asd asda sdassadasd asdsadas ds</p>
               </DarkCard>
             </div>
             <div className="col-span-12 md:col-span-6 lg:col-span-3">
-              <DarkCard title="Feature 1" lightLevel={2}>
+              <DarkCard title="Precio" lightLevel={2}>
                 <p>Texto asdsa dasd asd as asd asd asda sdassadasd asdsadas ds</p>
               </DarkCard>
             </div>
             <div className="col-span-12 md:col-span-6 lg:col-span-3">
-              <DarkCard title="Feature 1" lightLevel={3}>
+              <DarkCard title="Garantía" lightLevel={3}>
                 <p>Texto asdsa dasd asd as asd asd asda sdassadasd asdsadas ds</p>
               </DarkCard>
             </div>
             <div className="col-span-12 md:col-span-6 lg:col-span-3">
-              <DarkCard title="Feature 1" lightLevel={4}>
+              <DarkCard title="Compromiso" lightLevel={4}>
                 <p>Texto asdsa dasd asd as asd asd asda sdassadasd asdsadas ds</p>
               </DarkCard>
             </div>
@@ -52,12 +53,47 @@ export default function Home({}) {
       </Section>
 
 
+      <Section bg="white">
+        <div className="grid grid-cols-12 gap-4">
+          <div className="col-span-12 lg:col-span-5">
+            <StatsSvg className="w-full h-full my-auto" />
+          </div>
+          <div className="col-span-12 lg:col-span-7">
+            <TitleAndText title="¡No te quedes atrás, el mundo comercial se está digitalizando!" titleColor="red" align="right">
+              <p>
+                En <strong>OriginMaster</strong> sabemos que <strong>la digitalización comercial es muy importante</strong> y, la prueba mas evidente,
+                es  la situación de emergencia actual (COVID-19). Muchos <strong>comercios y empresas NO digitalizadas luchan contra un terrible baja de ingresos</strong>
+                {" "}debido a la poca o nula presencia digital.
+              </p>
+              <p className="mt-7">
+                <strong>Si usted o su empresa está pasando por está situción debe contactenos lo antes posible</strong> y de ese modo, podremos brindarle
+                la solución que mayor se adapte a sus necesidades y, por su puesto, su bolsillo.
+              </p>
+            </TitleAndText>
+          </div>
+        </div>
+      </Section>
+
+
       <Section>
-        <TitleAndText title="el título" titleColor="red" align="right">
-          <p>
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
-          </p>
-        </TitleAndText>
+        <div className="grid grid-cols-12 gap-4">
+          <div className="col-span-12 lg:col-span-7">
+            <TitleAndText title="¡No te quedes atrás, el mundo comercial se está digitalizando!" titleColor="red" align="right">
+              <p>
+                En <strong>OriginMaster</strong> sabemos que <strong>la digitalización comercial es muy importante</strong> y, la prueba mas evidente,
+                es  la situación de emergencia actual (COVID-19). Muchos <strong>comercios y empresas NO digitalizadas luchan contra un terrible baja de ingresos</strong>
+                {" "}debido a la poca o nula presencia digital.
+              </p>
+              <p className="mt-7">
+                <strong>Si usted o su empresa está pasando por está situción debe contactenos lo antes posible</strong> y de ese modo, podremos brindarle
+                la solución que mayor se adapte a sus necesidades y, por su puesto, su bolsillo.
+              </p>
+            </TitleAndText>
+          </div>
+          <div className="col-span-12 lg:col-span-5">
+            <StatsSvg className="w-full h-full my-auto" />
+          </div>
+        </div>
       </Section>
     </>
   );

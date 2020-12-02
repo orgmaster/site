@@ -14,7 +14,7 @@ export const H1 = styled.h1`
     ${Default}
 `
 
-export const H2 = styled.h1`
+export const H2 = styled.h2`
     font-size: 30px;
     ${Default}
 `

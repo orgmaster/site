@@ -72,10 +72,8 @@ sup {
     font-size: 8px;
 }
 
-
-.mb-10{ margin-bottom:10px;}
-.mb-15{ margin-bottom:15px;}
-.mb-20{ margin-bottom:20px;}
-.mb-30{ margin-bottom:30px;}
-
+mark {
+    background-color: ${colors.red};
+    color: ${colors.white};
+}
 `
