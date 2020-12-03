@@ -6,6 +6,8 @@ import Button from '../components/Button';
 import MainSvg from '../assets/undraw_dev_focus_b9xo.svg';
 import DarkCard from "../components/DarkCard";
 import StatsSvg from '../assets/undraw_growth_analytics_8btt.svg';
+import ParkSvg from '../assets/undraw_environmental_study_skau.svg';
+import WhyChooseUs from '../components/WhyChooseUs';
 export default function Home({}) {
   return (
     <>
@@ -26,36 +28,12 @@ export default function Home({}) {
 
 
 
-      <Section bg="red" align="center" gradient>
-          <Title h2 align="center" color="white">¿Por qué elegirnos?</Title>
-          <div className="grid grid-cols-12 gap-4">
-            <div className="col-span-12 md:col-span-6 lg:col-span-3">
-              <DarkCard title="Calidad">
-                <p>Texto asdsa dasd asd as asd asd asda sdassadasd asdsadas ds</p>
-              </DarkCard>
-            </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-3">
-              <DarkCard title="Precio" lightLevel={2}>
-                <p>Texto asdsa dasd asd as asd asd asda sdassadasd asdsadas ds</p>
-              </DarkCard>
-            </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-3">
-              <DarkCard title="Garantía" lightLevel={3}>
-                <p>Texto asdsa dasd asd as asd asd asda sdassadasd asdsadas ds</p>
-              </DarkCard>
-            </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-3">
-              <DarkCard title="Compromiso" lightLevel={4}>
-                <p>Texto asdsa dasd asd as asd asd asda sdassadasd asdsadas ds</p>
-              </DarkCard>
-            </div>
-          </div>
-      </Section>
+      <WhyChooseUs />
 
 
       <Section bg="white">
         <div className="grid grid-cols-12 gap-4">
-          <div className="col-span-12 lg:col-span-5">
+          <div className="col-span-12 lg:col-span-5 bg-indigo-600 p-8 rounded-lg shadow-2xl">
             <StatsSvg className="w-full h-full my-auto" />
           </div>
           <div className="col-span-12 lg:col-span-7">
@@ -78,7 +56,7 @@ export default function Home({}) {
       <Section>
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 lg:col-span-7">
-            <TitleAndText title="¡No te quedes atrás, el mundo comercial se está digitalizando!" titleColor="red" align="right">
+            <TitleAndText title="¡No te quedes atrás, el mundo comercial se está digitalizando!" titleColor="red" align="left">
               <p>
                 En <strong>OriginMaster</strong> sabemos que <strong>la digitalización comercial es muy importante</strong> y, la prueba mas evidente,
                 es  la situación de emergencia actual (COVID-19). Muchos <strong>comercios y empresas NO digitalizadas luchan contra un terrible baja de ingresos</strong>
@@ -90,8 +68,8 @@ export default function Home({}) {
               </p>
             </TitleAndText>
           </div>
-          <div className="col-span-12 lg:col-span-5">
-            <StatsSvg className="w-full h-full my-auto" />
+          <div className="col-span-12 lg:col-span-5 bg-green-600 p-8 rounded-lg shadow-2xl">
+            <ParkSvg className="w-full h-full my-auto" />
           </div>
         </div>
       </Section>
