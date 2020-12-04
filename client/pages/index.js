@@ -11,7 +11,7 @@ import WhyChooseUs from '../components/WhyChooseUs';
 export default function Home({}) {
   return (
     <>
-      <Section bg="white" containerClass="py-10 flex" className="grid grid-cols-2 mt-auto">
+      <Section bg="white" containerClass="flex" className="grid grid-cols-2 mt-auto">
         <div className="col-span-2 sm:col-span-1 mb-5 sm:mb-0 flex flex-col justify-center">
           <div>
             <Title>¿Necesitas digitalizar tu negocio? <mark>Sabemos como hacerlo</mark></Title>

@@ -12,7 +12,7 @@ export const Container = styled.section`
 
 export const Content = styled.div`
     width: 100%;
-    max-width: 1114px;
+    max-width: 1272px;
     padding: 45px 20px;
     box-sizing:border-box;
     margin: 0 auto;

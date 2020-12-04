@@ -17,6 +17,9 @@ export const ArrowContainer = styled.button`
         width: 12px;
         margin:auto;
     }
+    @media(max-width: 767px) {
+        display:none;
+    }
 `
 
 export const PaginationContainer = styled.div`

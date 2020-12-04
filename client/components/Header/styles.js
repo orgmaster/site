@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled,{css} from 'styled-components';
 import {colors} from '../../styles/Theme';
 
 export const Logo = styled.a`
@@ -17,15 +17,17 @@ export const Logo = styled.a`
 export const Header = styled.header`
     background-color: ${colors.bgHeader};
     color: #fff;
-    height: 100px;
+    height: 85px;
     width:100%;
     position:sticky;
     top:0;
     z-index:1;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 15px ${colors.bgHeader}88;
 `
 
 export const Container = styled.div`
-    max-width: 1114px;
+    max-width: 1272px;
     height:100%;
     margin:0 auto;
     padding:0 20px;
