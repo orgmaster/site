@@ -14,7 +14,7 @@ export default function Home({}) {
       <Section bg="white" containerClass="flex" className="grid grid-cols-2 mt-auto">
         <div className="col-span-2 sm:col-span-1 mb-5 sm:mb-0 flex flex-col justify-center">
           <div>
-            <Title>¿Necesitas digitalizar tu negocio? <mark>Sabemos como hacerlo</mark></Title>
+            <Title>¿Necesitas una solución digital? <mark>Sabemos como hacerlo</mark></Title>
             <div className="mt-8">
               <Button className="w-full lg:w-auto">Contactar</Button>
               <Button className="ml-0 mt-4 lg:mt-0 lg:ml-5 w-full lg:w-auto" outline>Ver trabajos</Button>
@@ -56,15 +56,13 @@ export default function Home({}) {
       <Section>
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 lg:col-span-7">
-            <TitleAndText title="¡No te quedes atrás, el mundo comercial se está digitalizando!" titleColor="red" align="left">
+            <TitleAndText title="Somos más que una fábrica de software, somos soluciones digitales" titleColor="red" align="left">
               <p>
-                En <strong>OriginMaster</strong> sabemos que <strong>la digitalización comercial es muy importante</strong> y, la prueba mas evidente,
-                es  la situación de emergencia actual (COVID-19). Muchos <strong>comercios y empresas NO digitalizadas luchan contra un terrible baja de ingresos</strong>
-                {" "}debido a la poca o nula presencia digital.
+                Contamos con un equipo especializado en la construcción de software. <strong>Su único fin es construir ideas y soluciones
+                {" "}para abastecer las necesidades de nuestro clientes</strong>.
               </p>
               <p className="mt-7">
-                <strong>Si usted o su empresa está pasando por está situción debe contactenos lo antes posible</strong> y de ese modo, podremos brindarle
-                la solución que mayor se adapte a sus necesidades y, por su puesto, su bolsillo.
+                Pero, también entendemos que muchas veces hay que continuar un trabajo abandonado o a completar, y no tenemos ningun problema en hacerlo.
               </p>
             </TitleAndText>
           </div>
