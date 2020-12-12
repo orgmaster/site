@@ -6,7 +6,7 @@ export default function TitleAndText({align, titleColor, title, children, textCo
             <Title titleColor={titleColor}>
                 {title}
             </Title>
-            <Text textColor={textColor}>
+            <Text align={align} textColor={textColor}>
                 {children}
             </Text>
         </Container>
