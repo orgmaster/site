@@ -100,7 +100,7 @@ export default function Home({}) {
         </div>
       </Section>
 
-      <Footer/>
+      <Footer full/>
     </>
   );
 }

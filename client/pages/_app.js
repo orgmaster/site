@@ -9,6 +9,7 @@ export default function App({Component, pageProps}) {
         <>
             <Head>
                 <title>OriginMaster</title>
+                <link rel="shortcut icon" href="/favicon.ico" />
             </Head>
             <ResetStyle />
             <GlobalStyle />

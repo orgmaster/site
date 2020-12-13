@@ -35,11 +35,42 @@ export const Item = styled.div`
         font-size: 1.3rem;
         line-height: 1.2;
     }
+    @media(max-width: 767px) {
+        text-align:center;
+    }
+`;
+
+export const Lema = styled.p`
+    font-size: .9rem !important;
 `;
 
 export const Banner = styled.div`
     svg{
-        width: 90%;
-        height: auto;
+        margin:0 auto;
+        width:64px;
+        height:64px;
+        box-shadow: 0 0 10px ${colors.red};
     }
 `
+
+export const SocialIcons = styled.div`
+    width:165px;
+    display: flex;
+    margin-top: 14px;
+    justify-content:space-between;
+    @media(max-width: 767px) {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    a {
+        width: 30px;
+        svg{
+            transition: all .4s ease-in-out;
+            background-color: white;
+            &:hover{
+                fill:white;
+                background-color:${colors.red};
+            }
+        }
+    }
+`;
