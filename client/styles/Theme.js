@@ -12,3 +12,7 @@ export const colors = {
     redLight,
     bgHeader: dark
 }
+
+export const vars = {
+    maxWidth: 1272
+}

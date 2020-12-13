@@ -1,6 +1,7 @@
 import Section from "../components/Section";
 import Input from '../components/Input';
-import Title from '../components/Title'
+import Footer from '../components/Footer';
+import Title from '../components/Title';
 import TitleAndText from '../components/TitleAndText';
 import Button from '../components/Button';
 import MainSvg from '../assets/undraw_dev_focus_b9xo.svg';
@@ -98,6 +99,8 @@ export default function Home({}) {
           </div>
         </div>
       </Section>
+
+      <Footer />
     </>
   );
 }
