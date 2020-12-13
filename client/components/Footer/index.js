@@ -33,7 +33,7 @@ export default function Footer({full, className}){
                     </div>
                 )}
                 <Copyright>
-                    <p>Copyright C {year} OriginMaster SRL, Todos los derechos reservados</p>
+                    <p>Copyright &copy; {year} OriginMaster SRL, Todos los derechos reservados</p>
                 </Copyright>
             </Wrapper>
         </Container>
