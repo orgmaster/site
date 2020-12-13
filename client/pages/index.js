@@ -85,10 +85,10 @@ export default function Home({}) {
             </BlockInfo>
             <BlockInfo title="Redes sociales" color="white">
               <p>
-                <a href="#" target="_blank">Facebook</a> · {" "}
-                <a href="#" target="_blank">Instagram</a> · {" "}
-                <a href="#" target="_blank">LinkedIn</a> · {" "}
-                <a href="#" target="_blank">Twitter</a>
+                <a href="https://www.facebook.com/originmaster.ok" target="_blank">Facebook</a> · {" "}
+                <a href="https://www.instagram.com/originmaster_ok/" target="_blank">Instagram</a> · {" "}
+                <a href="https://www.linkedin.com/company/originmaster" target="_blank">LinkedIn</a> · {" "}
+                <a href="https://twitter.com/originmaster_ok" target="_blank">Twitter</a>
               </p>
             </BlockInfo>
             <BlockInfo title="Teléfono" color="white">
@@ -100,7 +100,7 @@ export default function Home({}) {
         </div>
       </Section>
 
-      <Footer />
+      <Footer/>
     </>
   );
 }

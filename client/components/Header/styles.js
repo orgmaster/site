@@ -6,8 +6,6 @@ export const Logo = styled.a`
     height: 40px;
     cursor: pointer;
     display: flex;
-    background-color: ${colors.white};
-    border-radius: 50%;
     svg {
         width:100%;
         height: 100%;

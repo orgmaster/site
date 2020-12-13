@@ -1,4 +1,6 @@
-import {Container, Wrapper, Copyright, Title, Item} from './styles';
+import {Container, Wrapper, Copyright, Title, Item, Banner} from './styles';
+
+import BannerSvg from '../../assets/Banner.svg';
 
 export default function Footer({full, className}){
     const year = new Date().getFullYear();
@@ -9,6 +11,7 @@ export default function Footer({full, className}){
                     <div className="grid grid-cols-3 pt-8">
                         <div className="col-span-3 sm:col-span-1">
                             <Item>
+                                <Banner><BannerSvg/></Banner>
                                 <Title>OriginMaster</Title>
                                 <p>Ofrecemos soluciones digitales</p>
                             </Item>

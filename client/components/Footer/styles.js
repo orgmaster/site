@@ -36,3 +36,10 @@ export const Item = styled.div`
         line-height: 1.2;
     }
 `;
+
+export const Banner = styled.div`
+    svg{
+        width: 90%;
+        height: auto;
+    }
+`

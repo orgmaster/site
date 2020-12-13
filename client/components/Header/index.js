@@ -1,7 +1,7 @@
 import {Container, Header as HeaderStyled, WspLink, Logo} from './styles';
 import Link from 'next/link';
 import WspIcon from '../../assets/whatsapp.svg';
-import LogoSvg from '../../assets/logo.svg';
+import LogoSvg from '../../assets/Logo.svg';
 import {whatsapp_link} from '../../config';
 import MenuButton from '../MenuButton';
 import { useState } from 'react';
