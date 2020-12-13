@@ -2,7 +2,6 @@ import styled,{css} from 'styled-components';
 
 export const CarouselItem = styled.div`
     width:100%;
-    height: auto;
     margin:0 10px;
 `
 export const ArrowContainer = styled.button`

@@ -8,9 +8,9 @@ const app =next({dev});
 const handle = app.getRequestHandler();
 
 const httpsOptions = {
-    key: fs.readFileSync('./certificates/zerossl/private.key'),
-    cert: fs.readFileSync('./certificates/zerossl/certificate.crt'),
-    ca: fs.readFileSync('./certificates/zerossl/ca_bundle.crt')
+    key: fs.readFileSync('./ssl/private.key'),
+    cert: fs.readFileSync('./ssl/certificate.crt'),
+    ca: fs.readFileSync('./ssl/ca_bundle.crt')
 };
 
 app.prepare()

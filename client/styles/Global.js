@@ -76,4 +76,8 @@ mark {
     background-color: ${colors.red};
     color: ${colors.white};
 }
+
+.rec-carousel-item {
+    display:flex !important;
+}
 `

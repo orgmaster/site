@@ -18,7 +18,6 @@ export const Card = styled.div`
     background-color: ${colors.base};
     background-image: linear-gradient(180deg, ${colors.base} 0%, ${({lightLevel}) => colors[lightLevel]} 100%);
     line-height:1.83;
-    height:${({fixedHeight}) => fixedHeight ? (fixedHeight+'px') : 'auto'};
 `;
 
 export const Title = styled.h3`
