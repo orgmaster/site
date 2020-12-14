@@ -38,6 +38,12 @@ export const Item = styled.div`
     @media(max-width: 767px) {
         text-align:center;
     }
+    a{
+        transition: all .4s ease-in-out;
+        &:hover{
+            text-shadow: 0 0 5px white;
+        }
+    }
 `;
 
 export const Lema = styled.p`
@@ -65,12 +71,31 @@ export const SocialIcons = styled.div`
     a {
         width: 30px;
         svg{
+            box-shadow: 0 0 5px #000;
             transition: all .4s ease-in-out;
             background-color: white;
             &:hover{
+                box-shadow: 0 0 5px #fff;
                 fill:white;
                 background-color:${colors.red};
             }
         }
     }
+`;
+
+export const List = styled.ul`
+
+li {
+    a{
+        ::before{
+            content: "· "
+        }
+        box-sizing:border-box;
+        padding: 10px;
+        display:block;
+        &:hover{
+            font-weight:500;
+        }
+    }
+}
 `;

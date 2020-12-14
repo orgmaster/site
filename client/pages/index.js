@@ -74,7 +74,7 @@ export default function Home({}) {
       </Section>
 
 
-      <Section bg="red" gradient>
+      <Section bg="red" gradient id="contactar">
         <Title h2 color="white" align="center">¡Contáctenos!</Title>
         <div className="grid grid-cols-2 gap-4">
           <div className="col-span-2 sm:col-span-1">
@@ -100,7 +100,7 @@ export default function Home({}) {
         </div>
       </Section>
 
-      <Footer full/>
+      <Footer full />
     </>
   );
 }

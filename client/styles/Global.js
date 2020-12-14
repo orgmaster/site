@@ -80,4 +80,8 @@ mark {
 .rec-carousel-item {
     display:flex !important;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 `
