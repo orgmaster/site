@@ -6,7 +6,7 @@ export const ResetStyle = createGlobalStyle`
     */
     html, body{
         width:100%;
-        height:100%
+        height:100%;
     }
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -36,10 +36,6 @@ export const ResetStyle = createGlobalStyle`
     }
     body {
         line-height: 1;
-    }
-    html, body{
-        width:100%;
-        height:100%
     } 
     ol, ul, li {
         list-style: none;
@@ -88,7 +84,7 @@ export const ResetStyle = createGlobalStyle`
     }
     
     button:focus{
-        outline:0
+        outline:0;
     }
 
-`
+`;

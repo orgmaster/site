@@ -29,4 +29,11 @@ export const Text = styled.div`
     p{
         margin-bottom: 15px;
     }
+    a{
+        text-decoration: underline;
+        transition: all .4s ease-in-out;
+        &:hover {
+            color: ${colors.red};
+        }
+    }
 `

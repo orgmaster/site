@@ -1,15 +1,17 @@
 import styled,{css} from 'styled-components';
 import {colors} from '../../styles/Theme';
 
-const Base = styled.button`
+const stylesBase = css`
     font-family: 'Montserrat';
     box-sizing: border-box;
     border-radius: 5px;
     padding: 20px 40px;
-    transition: opacity .3s ease-in-out;
+    transition: all .4s ease-in-out;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: normal;
+    display:inline-block;
+    text-align:center;
     &:hover{
         opacity: .7;
         cursor: pointer;
@@ -18,23 +20,49 @@ const Base = styled.button`
     /* @media(max-width: 1023px){
         width:100%;
     } */
-`
+`;
 
-export const Fill = styled(Base)`
+
+const stylesFill = css`
     background-color: ${({color}) => colors[color] || colors.red};
     ${({color}) => {
         if(['white','light'].includes(color)) {
             return css`
-                color: ${colors.dark};
+                color: ${colors.dark} !important;
             `;
         }
         return css`
-            color: ${colors.white}
+            color: ${colors.white} !important;
         `
     }}
-`
+`;
 
-export const Outline = styled(Base)`
+const stylesOutline = css`
     color:${({color}) => colors[color] || colors.red};
     background-color: transparent;
-`
+`;
+
+const BaseButton = styled.button`
+    ${stylesBase}
+`;
+
+const BaseLink = styled.a`
+    ${stylesBase}
+    text-decoration:none !important;
+`;
+
+export const Fill = styled(BaseButton)`
+    ${stylesFill}
+`;
+
+export const Outline = styled(BaseButton)`
+    ${stylesOutline}
+`;
+
+export const FillLink = styled(BaseLink)`
+    ${stylesFill}
+`;
+
+export const OutlineLink = styled(BaseLink)`
+    ${stylesOutline}
+`;

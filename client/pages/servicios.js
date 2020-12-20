@@ -9,6 +9,8 @@ import WebDevSvg from '../assets/web_develop.svg';
 import ParkSvg from '../assets/undraw_environmental_study_skau.svg';
 import WhyChooseUs from '../components/WhyChooseUs';
 import BlockInfo from '../components/BlockInfo';
+import Link from "next/link";
+import Text from '../components/Text';
 export default function Home({}) {
   return (
     <>
@@ -25,11 +27,9 @@ export default function Home({}) {
           <div className="col-span-12 lg:col-span-6">
             <TitleAndText title="Desarrollo mobile para IOS y Android" titleColor="red" align="right">
               <p>
-                Contamos con un equipo especializado en la construcción de software. <strong>Su único fin es construir ideas y soluciones
-                {" "}para abastecer las necesidades de nuestro clientes</strong>.
-              </p>
-              <p>
-                Pero, también entendemos que muchas veces hay que continuar un trabajo abandonado o a completar, y no tenemos ningun problema en hacerlo.
+                <strong>¡Permite a tus clientes tenerte al alcance de su bolsillo!</strong> Las aplicaciones
+                {" "}móviles son herramientas indispensables para impulsar tu empresa incrementando tus
+                {" "}posibilidades de conversión. 
               </p>
             </TitleAndText>
           </div>
@@ -44,13 +44,10 @@ export default function Home({}) {
           <div className="col-span-12 lg:col-span-6">
             <TitleAndText title="Desarrollo de sitios web responsivos, SPA y PWA" titleColor="red" align="left">
               <p>
-                En <strong>OriginMaster</strong> sabemos que <strong>la digitalización comercial es muy importante</strong> y, la prueba mas evidente,
-                es  la situación de emergencia actual (COVID-19). Muchos <strong>comercios y empresas NO digitalizadas luchan contra un terrible baja de ingresos</strong>
-                {" "}debido a la poca o nula presencia digital.
-              </p>
-              <p>
-                <strong>Si usted o su empresa está pasando por está situción debe contactenos lo antes posible</strong> y de ese modo, podremos brindarle
-                la solución que mayor se adapte a sus necesidades y, por su puesto, su bolsillo.
+                Tener un sitio en internet es abrirle las puertas al mundo, no existen límites. <strong>En OriginMaster
+                {" "}creamos sitios completamente adaptables para los diferentes dispositivos (desktop, smartphone,
+                {" "}tablet & smart TV).
+                </strong>
               </p>
             </TitleAndText>
           </div>
@@ -66,11 +63,8 @@ export default function Home({}) {
           <div className="col-span-12 lg:col-span-6">
             <TitleAndText title="Desarrollo de sistemas, crm y aplicaciones multiplataformas (Window, Mac y Linux)" titleColor="red" align="right">
               <p>
-                Contamos con un equipo especializado en la construcción de software. <strong>Su único fin es construir ideas y soluciones
-                {" "}para abastecer las necesidades de nuestro clientes</strong>.
-              </p>
-              <p>
-                Pero, también entendemos que muchas veces hay que continuar un trabajo abandonado o a completar, y no tenemos ningun problema en hacerlo.
+                Administrar una empresa es dificil, pero podemos ayudarte con <strong>soluciones digitales</strong>, solo
+                {" "} debe <Link href="/#contactar"><a>contactarnos</a></Link>.
               </p>
             </TitleAndText>
           </div>
@@ -85,17 +79,23 @@ export default function Home({}) {
           <div className="col-span-12 lg:col-span-6">
             <TitleAndText title="SEO, para mejorar tu posicionamiento en google, bing y otros" titleColor="red" align="left">
               <p>
-                En <strong>OriginMaster</strong> sabemos que <strong>la digitalización comercial es muy importante</strong> y, la prueba mas evidente,
-                es  la situación de emergencia actual (COVID-19). Muchos <strong>comercios y empresas NO digitalizadas luchan contra un terrible baja de ingresos</strong>
-                {" "}debido a la poca o nula presencia digital.
-              </p>
-              <p>
-                <strong>Si usted o su empresa está pasando por está situción debe contactenos lo antes posible</strong> y de ese modo, podremos brindarle
-                la solución que mayor se adapte a sus necesidades y, por su puesto, su bolsillo.
+                El SEO (Search Engine Optimization) permite posicionar tu sitio en lo más alto de la web, asimismo,
+                evita las penalizaciones en los motores de búsqueda más utilizados.
               </p>
             </TitleAndText>
           </div>
         </div>
+      </Section>
+
+      <Section>
+          <Title align="center" h2>Somos soluciones digitales</Title>
+          <Text align="center">
+            <p>
+              Para empreas, pymes y pequeños comercios.
+            </p>
+            <Link href="/#contactar"><Button link outline>Contactar Ahora</Button></Link>
+          </Text>
+          
       </Section>
 
       <Footer full/>

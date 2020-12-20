@@ -9,16 +9,22 @@ import StatsSvg from '../assets/undraw_growth_analytics_8btt.svg';
 import ParkSvg from '../assets/undraw_environmental_study_skau.svg';
 import WhyChooseUs from '../components/WhyChooseUs';
 import BlockInfo from '../components/BlockInfo';
+import Link from "next/link";
+
 export default function Home({}) {
   return (
     <>
       <Section bg="white" containerClass="flex" className="grid grid-cols-2 mt-auto">
         <div className="col-span-2 sm:col-span-1 mb-5 sm:mb-0 flex flex-col justify-center">
           <div>
-            <Title>¿Necesitas una solución digital? <mark>Sabemos como hacerlo</mark></Title>
-            <div className="mt-8">
-              <Button className="w-full lg:w-auto">Contactar</Button>
-              <Button className="ml-0 mt-4 lg:mt-0 lg:ml-5 w-full lg:w-auto" outline>Ver trabajos</Button>
+            <Title>¿Necesitas una solución digital? Sabemos como hacerlo</Title>
+            <div className="mt-8 grid grid-cols-2 gap-4">
+              <div className="col-span-2 xl:col-span-1">
+                <Link href="#contactar"><Button className="w-full" link>Contactar</Button></Link>
+              </div>
+              <div className="col-span-2 xl:col-span-1">
+                <Button className="w-full" link outline>Ver trabajos</Button>
+              </div>
             </div>
           </div>
         </div>
