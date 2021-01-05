@@ -4,10 +4,8 @@ import WspIcon from '../../assets/whatsapp.svg';
 import LogoSvg from '../../assets/Logo.svg';
 import {whatsapp_link} from '../../config';
 import MenuButton from '../MenuButton';
-import { useState } from 'react';
 
-export default function Header() {
-    const [toggle,setToggle] = useState(false);
+export default function Header({toggle, setToggle}) {
     return (
         <HeaderStyled>
             <Container>

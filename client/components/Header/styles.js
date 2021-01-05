@@ -25,7 +25,6 @@ export const Header = styled.header`
 `
 
 export const Container = styled.div`
-    max-width: 1272px;
     height:100%;
     margin:0 auto;
     padding:0 20px;
